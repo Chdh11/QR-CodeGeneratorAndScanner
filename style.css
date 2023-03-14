@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #ffffff;
+    padding: 20px 20px 0 20px;
+    
+}
+#header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 0.6;
+
+    /* filter: blur(0px); */
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(19, 16, 16);
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info{
+    position: absolute;
+  top: 8px;
+  right: 16px;
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s, height 0.3s;
+}
+#info:hover{
+    width:80px;
+    height: 80px;
+    
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    top:60px;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.menu .generator{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 50px;
+    text-align: center;
+    background: #b5b5b5;
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    transition: font-weight 0.3s;
+    border-radius: 7px;
+}
+.menu .scanner{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    background: #b5b5b5;
+    width: 500px;
+    height: 500px;
+    margin:15px;
+    transition: font-weight 0.3s;
+    border-radius: 7px;
+}
+.menu .generator:hover{
+    font-weight: 700;
+    background: #808080;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+.menu .scanner:hover{
+    font-weight: 700;
+    background: #808080;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.ending{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 20px 20px 20px;
+}
